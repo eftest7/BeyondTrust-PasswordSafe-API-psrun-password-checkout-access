@@ -8,4 +8,4 @@ $managed_user = 'stan-adm'
 
 #<----RETRIEVE A PASSWORD---->
 $pw_result = C:\code\psrun\psrun2.exe -i $binsight $apikey $api_user RetrievePassword $systemtofind $managed_user $reason
-write-output 'Password for' $managed_user 'on' $systemtofind 'is:' $pw_result
+write-output 'System:' $systemtofind 'Username:' $managed_user 'Password:' $pw_result
